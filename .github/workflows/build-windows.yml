@@ -1,4 +1,4 @@
-﻿name: Build Windows launcher
+name: Build Windows launcher
 
 on:
   push:
@@ -19,7 +19,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Checkout source without LFS payloads
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           lfs: false
 
