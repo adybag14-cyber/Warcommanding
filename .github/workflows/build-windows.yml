@@ -1,0 +1,52 @@
+﻿name: Build Windows launcher
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'runtime/**'
+      - 'seed-assets/**'
+      - 'docs/**'
+      - '*.md'
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout source without LFS payloads
+        uses: actions/checkout@v4
+        with:
+          lfs: false
+
+      - name: Set up Node.js 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+
+      - name: Install locked dependencies
+        run: npm ci
+
+      - name: Verify reconstructed source
+        run: npm run verify:source
+
+      - name: Audit production dependencies
+        run: npm audit --omit=dev --audit-level=high
+
+      - name: Build unsigned portable executable
+        run: npm run dist:win
+        env:
+          CSC_IDENTITY_AUTO_DISCOVERY: 'false'
+
+      - name: Upload Windows build
+        uses: actions/upload-artifact@v4
+        with:
+          name: WarCommander-windows-x64
+          path: dist/WarCommander-*-portable.exe
+          if-no-files-found: error
+          retention-days: 14

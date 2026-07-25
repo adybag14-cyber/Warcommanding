@@ -1,0 +1,74 @@
+{
+  "name": "warcommanding-recovered",
+  "version": "1.0.0",
+  "description": "Reproducible recovered Electron launcher project for War Commander",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "module",
+  "main": "out/main/index.bundle.mjs",
+  "author": "adybag14-cyber",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adybag14-cyber/Warcommanding.git"
+  },
+  "scripts": {
+    "start": "electron .",
+    "start:no-gpu": "electron . --disable-gpu --disable-gpu-compositing",
+    "verify:source": "node tools/verify-source.mjs",
+    "verify:assets": "python tools/checksums.py verify",
+    "checksums": "python tools/checksums.py generate",
+    "patch:water-pipe": "python tools/apply-water-pipe-patch.py seed-assets/asset-cache",
+    "restore:water-pipe": "python tools/apply-water-pipe-patch.py seed-assets/asset-cache --restore",
+    "seed:assets": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/Seed-AssetCache.ps1",
+    "pack:win": "electron-builder --win dir --x64",
+    "dist:win": "electron-builder --win portable --x64",
+    "bundle:offline": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/Create-OfflineBundle.ps1"
+  },
+  "dependencies": {
+    "steamworks.js": "0.4.0"
+  },
+  "devDependencies": {
+    "electron": "38.8.6",
+    "electron-builder": "26.15.3"
+  },
+  "build": {
+    "appId": "com.kixeye.warcommander",
+    "productName": "War Commander",
+    "asar": true,
+    "asarUnpack": [
+      "node_modules/steamworks.js/**/*"
+    ],
+    "files": [
+      "out/**/*",
+      "package.json",
+      "steam_appid.txt"
+    ],
+    "extraResources": [
+      {
+        "from": "steam_appid.txt",
+        "to": "steam_appid.txt"
+      }
+    ],
+    "directories": {
+      "output": "dist",
+      "buildResources": "out/assets"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "portable",
+          "arch": ["x64"]
+        }
+      ],
+      "icon": "out/assets/icon.ico",
+      "executableName": "WarCommander",
+      "artifactName": "WarCommander-${version}-${arch}.${ext}"
+    },
+    "portable": {
+      "artifactName": "WarCommander-${version}-${arch}-portable.${ext}"
+    }
+  },
+  "engines": {
+    "node": ">=24 <25"
+  }
+}

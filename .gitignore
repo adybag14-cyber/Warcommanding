@@ -1,0 +1,26 @@
+﻿/node_modules/
+/dist/
+/release/
+/.tmp/
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example
+
+# Never commit live profile/account state.
+warcommander-profile/
+Cache/
+Code Cache/
+GPUCache/
+Network/
+Session Storage/
+Local Storage/
+Cookies
+Preferences
+Local State
+user-settings.json

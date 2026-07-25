@@ -1,0 +1,10 @@
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Complete recovered binary distribution and cache snapshot are stored in Git LFS.
+runtime/** filter=lfs diff=lfs merge=lfs -text
+seed-assets/** filter=lfs diff=lfs merge=lfs -text
+patches/water-pipe/original-assets/** filter=lfs diff=lfs merge=lfs -text
+patches/water-pipe/patched-assets/** filter=lfs diff=lfs merge=lfs -text

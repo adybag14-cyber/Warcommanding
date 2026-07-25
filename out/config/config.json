@@ -1,0 +1,21 @@
+{
+  "window": {
+    "resizable": true,
+    "title": "War Commander"
+  },
+  "steam": {
+    "appId": 4336770,
+    "appIdentifier": "warcommander"
+  },
+  "cache": {
+    "interceptableHosts": [
+      "https://wc-origin.cdn-kixeye.com"
+    ],
+    "assetPathPrefix": "game/assets"
+  },
+  "gameCanvasUrl": "https://prod-st-vip.sjc.kixeye.com/landing",
+  "buildType": "RELEASE",
+  "env": "awslive",
+  "__DEBUG__": false,
+  "__RELEASE__": true
+}

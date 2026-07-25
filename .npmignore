@@ -1,0 +1,12 @@
+﻿# npm package archives are source-only; Electron Builder uses package.json build.files.
+runtime/
+seed-assets/
+patches/
+docs/
+manifests/
+.github/
+scripts/
+tools/
+CONTRIBUTING.md
+SECURITY.md
+NOTICE.md
