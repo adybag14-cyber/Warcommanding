@@ -1,4 +1,4 @@
-﻿name: Build Windows launcher
+name: Build Windows launcher
 
 on:
   push:
@@ -44,7 +44,7 @@ jobs:
           CSC_IDENTITY_AUTO_DISCOVERY: 'false'
 
       - name: Upload Windows build
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: WarCommander-windows-x64
           path: dist/WarCommander-*-portable.exe
