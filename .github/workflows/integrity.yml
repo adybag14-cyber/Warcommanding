@@ -1,0 +1,33 @@
+name: Verify recovered assets
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'payloads/**'
+      - 'seed-assets/**'
+      - 'manifests/**'
+      - 'tools/checksums.py'
+      - 'tools/runtime-payload.py'
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout complete payload
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Verify split runtime and asset checksums
+        run: python tools/checksums.py verify
+
+      - name: Test runtime restoration
+        run: python tools/runtime-payload.py restore --destination .tmp/restored-runtime

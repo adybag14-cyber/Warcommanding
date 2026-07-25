@@ -1,0 +1,26 @@
+{
+  "snapshotDate": "2026-07-25",
+  "sourceProject": "D:\\game project\\Commandingwars",
+  "electronVersion": "38.8.6",
+  "electronBuilderVersion": "26.15.3",
+  "steamworksVersion": "0.4.0",
+  "steamAppId": 4336770,
+  "runtime": {
+    "files": 30,
+    "bytes": 288780757
+  },
+  "assetCache": {
+    "files": 345,
+    "bytes": 54199998
+  },
+  "limitations": [
+    "Recovered production bundles only; original unbundled source and source maps were unavailable.",
+    "Builds are unsigned and not byte-identical to the original release.",
+    "Asset cache is the complete locally recovered snapshot, not every live-service asset."
+  ],
+  "storage": {
+    "assetCache": "ordinary Git files",
+    "recoveredRuntime": "deterministic ZIP split into ordinary Git parts below 100 MiB",
+    "gitLfsRequired": false
+  }
+}

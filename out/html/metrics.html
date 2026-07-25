@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'" />
+		<title>Metrics</title>
+		<style>
+			:root {
+				font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+				color-scheme: light;
+			}
+
+			body {
+				margin: 0;
+				padding: 12px;
+				background: #f5f6f8;
+				color: #1b1f24;
+			}
+
+			h1 {
+				margin: 0 0 8px;
+				font-size: 18px;
+			}
+
+			#updatedAt {
+				margin: 0 0 12px;
+				font-size: 12px;
+				color: #5d6773;
+			}
+
+			table {
+				width: 100%;
+				border-collapse: collapse;
+				background: #ffffff;
+				border: 1px solid #d8dde4;
+			}
+
+			th,
+			td {
+				text-align: left;
+				padding: 8px;
+				border-bottom: 1px solid #e8ebef;
+				font-size: 13px;
+			}
+
+			th {
+				width: 48%;
+				background: #f0f3f7;
+			}
+
+			#status {
+				margin-top: 10px;
+				font-size: 12px;
+				color: #a1260d;
+			}
+
+			#chartsSection {
+				margin-top: 16px;
+			}
+
+			#chartsSection h2 {
+				margin: 0 0 8px;
+				font-size: 16px;
+			}
+
+			.chart-card {
+				background: #ffffff;
+				border: 1px solid #d8dde4;
+				padding: 10px;
+				margin-bottom: 10px;
+			}
+
+			.chart-title {
+				font-size: 12px;
+				color: #445066;
+				margin: 0 0 8px;
+			}
+
+			.chart-canvas {
+				width: 100%;
+				height: 140px;
+				display: block;
+				border: 1px solid #e8ebef;
+				background: #fbfcfe;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 id="title">Metrics</h1>
+		<p id="updatedAt">Updating...</p>
+		<table id="statsTable">
+			<tbody></tbody>
+		</table>
+		<section id="chartsSection">
+			<h2>Gauge Charts</h2>
+			<div id="chartsContainer"></div>
+		</section>
+		<p id="status"></p>
+
+		<script>
+			const POLL_MS = 1000;
+			const DEFAULT_PREFIX = "cache";
+			const params = new URLSearchParams(window.location.search);
+			const prefix = (params.get("prefix") || DEFAULT_PREFIX).trim() || DEFAULT_PREFIX;
+
+			document.getElementById("title").textContent = `Metrics: ${prefix}`;
+			document.title = `Metrics: ${prefix}`;
+
+			const updatedAtEl = document.getElementById("updatedAt");
+			const statusEl = document.getElementById("status");
+			const tbody = document.querySelector("#statsTable tbody");
+			const chartsContainer = document.getElementById("chartsContainer");
+
+			const formatValue = (value) => {
+				if (typeof value === "number") {
+					if (Number.isInteger(value)) {
+						return value.toLocaleString();
+					}
+					return value.toFixed(4);
+				}
+
+				if (typeof value === "boolean") {
+					return value ? "true" : "false";
+				}
+
+				if (value === null || value === undefined) {
+					return "-";
+				}
+
+				if (typeof value === "object") {
+					return JSON.stringify(value);
+				}
+
+				return String(value);
+			};
+
+			const renderMetrics = (metrics) => {
+				tbody.innerHTML = "";
+
+				for (const [key, value] of Object.entries(metrics)) {
+					if (key === "gaugeHistory") {
+						continue;
+					}
+
+					const row = document.createElement("tr");
+					const keyCell = document.createElement("th");
+					const valueCell = document.createElement("td");
+					keyCell.textContent = key;
+					valueCell.textContent = formatValue(value);
+					row.appendChild(keyCell);
+					row.appendChild(valueCell);
+					tbody.appendChild(row);
+				}
+			};
+
+			const drawLineChart = (canvas, points) => {
+				const ctx = canvas.getContext("2d");
+				const width = canvas.width;
+				const height = canvas.height;
+				ctx.clearRect(0, 0, width, height);
+
+				if (!points || points.length === 0) {
+					ctx.fillStyle = "#7a8594";
+					ctx.font = "12px Segoe UI";
+					ctx.fillText("No data", 10, 20);
+					return;
+				}
+
+				const values = points.map((p) => Number(p.value));
+				const min = Math.min(...values);
+				const max = Math.max(...values);
+				const range = max - min || 1;
+				const padding = 10;
+				const graphWidth = width - padding * 2;
+				const graphHeight = height - padding * 2;
+
+				ctx.strokeStyle = "#d8dde4";
+				ctx.lineWidth = 1;
+				ctx.beginPath();
+				ctx.moveTo(padding, height - padding);
+				ctx.lineTo(width - padding, height - padding);
+				ctx.moveTo(padding, padding);
+				ctx.lineTo(padding, height - padding);
+				ctx.stroke();
+
+				ctx.strokeStyle = "#0a66c2";
+				ctx.lineWidth = 2;
+				ctx.beginPath();
+
+				for (let i = 0; i < points.length; i += 1) {
+					const x =
+						padding +
+						(graphWidth * (points.length === 1 ? 0 : i / (points.length - 1)));
+					const y =
+						height - padding - ((values[i] - min) / range) * graphHeight;
+
+					if (i === 0) {
+						ctx.moveTo(x, y);
+					} else {
+						ctx.lineTo(x, y);
+					}
+				}
+
+				ctx.stroke();
+
+				ctx.fillStyle = "#445066";
+				ctx.font = "11px Segoe UI";
+				ctx.fillText(`min: ${formatValue(min)}`, 10, 12);
+				ctx.fillText(`max: ${formatValue(max)}`, 10, 26);
+			};
+
+			const renderGaugeCharts = (gaugeHistory) => {
+				chartsContainer.innerHTML = "";
+
+				const entries = Object.entries(gaugeHistory || {});
+				if (entries.length === 0) {
+					const empty = document.createElement("p");
+					empty.textContent = "No gauge metrics available.";
+					empty.style.fontSize = "12px";
+					empty.style.color = "#5d6773";
+					chartsContainer.appendChild(empty);
+					return;
+				}
+
+				for (const [metricKey, points] of entries) {
+					const card = document.createElement("div");
+					card.className = "chart-card";
+
+					const title = document.createElement("p");
+					title.className = "chart-title";
+					title.textContent = metricKey;
+
+					const canvas = document.createElement("canvas");
+					canvas.className = "chart-canvas";
+					canvas.width = 360;
+					canvas.height = 140;
+
+					card.appendChild(title);
+					card.appendChild(canvas);
+					chartsContainer.appendChild(card);
+
+					drawLineChart(canvas, points);
+				}
+			};
+
+			const refreshMetrics = async () => {
+				if (!window.metrics || typeof window.metrics.getByNamespace !== "function") {
+					statusEl.textContent = "window.metrics.getByNamespace is not available.";
+					return;
+				}
+
+				try {
+					const metrics = await window.metrics.getByNamespace(prefix, {
+						includeGaugeHistory: true,
+						stripPrefix: true,
+					});
+					renderMetrics(metrics);
+					renderGaugeCharts(metrics.gaugeHistory);
+					updatedAtEl.textContent = `Last update: ${new Date().toLocaleTimeString()}`;
+					statusEl.textContent = "";
+				} catch (error) {
+					statusEl.textContent = `Failed to load metrics: ${error.message}`;
+				}
+			};
+
+			refreshMetrics();
+			const pollHandle = setInterval(refreshMetrics, POLL_MS);
+
+			window.addEventListener("beforeunload", () => {
+				clearInterval(pollHandle);
+			});
+		</script>
+	</body>
+</html>

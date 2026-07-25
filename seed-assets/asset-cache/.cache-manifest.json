@@ -1,0 +1,1726 @@
+{
+  "version": 1,
+  "checkedAt": 1784987457119,
+  "files": {
+    "game/assets/landingPage/newsCards/image_4_Steam_1784845589.png": {
+      "hash": "820ceb5a9c4e4b6c4c6e1bc641057d1b",
+      "mtimeMs": 1784984695996.1604,
+      "size": 120711
+    },
+    "game/assets/preloader/warcommander.png": {
+      "hash": "c89e0a863d25bf2de39cfbe880af0672",
+      "mtimeMs": 1784984729113.6887,
+      "size": 29314
+    },
+    "game/assets/effects/burns.png": {
+      "hash": "02752d2d31dc06ddaf7a307a1c397a26",
+      "mtimeMs": 1784984739642.588,
+      "size": 1610
+    },
+    "game/assets/worldmap/arid/tiles/Trees_01.png": {
+      "hash": "9431f755140a79b3726ddd7f360d4686",
+      "mtimeMs": 1784984739660.8413,
+      "size": 6548
+    },
+    "game/assets/worldmap/tiles/forest2.png": {
+      "hash": "dcbdb463cd627773da568c30b6825d2b",
+      "mtimeMs": 1784984739661.842,
+      "size": 8506
+    },
+    "game/assets/worldmap/tiles/forest1.png": {
+      "hash": "e127a8129e649842ce67512e241399c6",
+      "mtimeMs": 1784984739662.8423,
+      "size": 11247
+    },
+    "game/assets/worldmap/arid/tiles/Trees_03.png": {
+      "hash": "e1dff615d44a9a1b41b5f1ab032e692f",
+      "mtimeMs": 1784984739662.8423,
+      "size": 4268
+    },
+    "game/assets/worldmap/arid/tiles/Trees_08.png": {
+      "hash": "13f2f78d0d51636f0e44c34af4d886d8",
+      "mtimeMs": 1784984739662.8423,
+      "size": 8444
+    },
+    "game/assets/worldmap/arid/tiles/Trees_04.png": {
+      "hash": "1267301e715261c481673cd8c93f9c66",
+      "mtimeMs": 1784984739662.8423,
+      "size": 4985
+    },
+    "game/assets/worldmap/arid/tiles/hills3.png": {
+      "hash": "c48c663a478e97d0a137f033cb12011f",
+      "mtimeMs": 1784984739662.8423,
+      "size": 7526
+    },
+    "game/assets/worldmap/arid/tiles/Trees_06.png": {
+      "hash": "571b35854dddd02de494565ba72d88da",
+      "mtimeMs": 1784984739663.9834,
+      "size": 6519
+    },
+    "game/assets/worldmap/tiles/forest4.png": {
+      "hash": "9836ae01c603a2e2d5b8d3a7937c6938",
+      "mtimeMs": 1784984739664.98,
+      "size": 2961
+    },
+    "game/assets/worldmap/tiles/forest3.png": {
+      "hash": "d5c413c1b2b55c69eb48102364331122",
+      "mtimeMs": 1784984739664.98,
+      "size": 11787
+    },
+    "game/assets/worldmap/arid/tiles/hills2.png": {
+      "hash": "13fca3a89f83f8da2c9a89534119fe3c",
+      "mtimeMs": 1784984739664.98,
+      "size": 7571
+    },
+    "game/assets/worldmap/arid/tiles/Trees_05.png": {
+      "hash": "cc227291c650d9f99eb197b8946deed2",
+      "mtimeMs": 1784984739664.98,
+      "size": 6272
+    },
+    "game/assets/worldmap/arid/tiles/hills1.png": {
+      "hash": "6cdb41b862495f072fb86e022f19abb9",
+      "mtimeMs": 1784984739664.98,
+      "size": 7365
+    },
+    "game/assets/worldmap/tiles/shrubs1.png": {
+      "hash": "0946ecbb2dae0600ab50d58ae729004f",
+      "mtimeMs": 1784984739664.98,
+      "size": 5667
+    },
+    "game/assets/worldmap/arid/tiles/Trees_07.png": {
+      "hash": "8ae2aed5e8a897e78394f28302013b2f",
+      "mtimeMs": 1784984739665.9822,
+      "size": 7291
+    },
+    "game/assets/worldmap/arid/tiles/Trees_02.png": {
+      "hash": "27f16e0ead79399382cd6f5f7d1c9267",
+      "mtimeMs": 1784984739665.9822,
+      "size": 6534
+    },
+    "game/assets/worldmap/tiles/shrubs2.png": {
+      "hash": "50195cf1c493bf7898fe7be92dca1cfb",
+      "mtimeMs": 1784984739665.9822,
+      "size": 7349
+    },
+    "game/assets/worldmap/tiles/shrubs3.png": {
+      "hash": "0ba02d4b7e1b738d778e5e559b0b181d",
+      "mtimeMs": 1784984739665.9822,
+      "size": 6868
+    },
+    "game/assets/worldmap/tiles/hills1.png": {
+      "hash": "2f0c2e07e956bc4fe17805e2fc3bb4ca",
+      "mtimeMs": 1784984739666.984,
+      "size": 8028
+    },
+    "game/assets/worldmap/tiles2/hills1.png": {
+      "hash": "d79abc11b719a25c127fcae1cffc4ac0",
+      "mtimeMs": 1784984739697.6604,
+      "size": 7902
+    },
+    "game/assets/worldmap/tiles/mtns2.png": {
+      "hash": "ea6fa4d414cb876e5dfc95096d5f885e",
+      "mtimeMs": 1784984739697.6604,
+      "size": 8094
+    },
+    "game/assets/worldmap/tiles/peak1.png": {
+      "hash": "f06328dcd1000f3089974929e15f1928",
+      "mtimeMs": 1784984739697.6604,
+      "size": 9045
+    },
+    "game/assets/worldmap/tiles/mtns3.png": {
+      "hash": "d0c8ebdf6da90ae76fcc3404e6a131f6",
+      "mtimeMs": 1784984739701.7085,
+      "size": 4212
+    },
+    "game/assets/worldmap/tiles2/forest2.png": {
+      "hash": "56b30e206b914cdca5d3b652f310d937",
+      "mtimeMs": 1784984739701.7085,
+      "size": 8438
+    },
+    "game/assets/worldmap/tiles2/forest3.png": {
+      "hash": "537ba2b10393a257013fdc8646f9239b",
+      "mtimeMs": 1784984739701.7085,
+      "size": 11361
+    },
+    "game/assets/worldmap/tiles2/shrubs1.png": {
+      "hash": "eadfadcddc52cc1c440484c061a1ba78",
+      "mtimeMs": 1784984739701.7085,
+      "size": 5484
+    },
+    "game/assets/worldmap/tiles/peak2.png": {
+      "hash": "d1ae84ebc64933955920095f591c8b97",
+      "mtimeMs": 1784984739704.3232,
+      "size": 8848
+    },
+    "game/assets/worldmap/tiles/hills2.png": {
+      "hash": "9624c27a933cb4b530ddc78c79f68d77",
+      "mtimeMs": 1784984739704.3232,
+      "size": 6505
+    },
+    "game/assets/worldmap/tiles2/forest1.png": {
+      "hash": "b13307d9a8faf5fdfcfb4a1de23890dd",
+      "mtimeMs": 1784984739704.3232,
+      "size": 11028
+    },
+    "game/assets/worldmap/tiles/mtns1.png": {
+      "hash": "d622ed7666ce77557b5329b0d88a969f",
+      "mtimeMs": 1784984739704.3232,
+      "size": 6875
+    },
+    "game/assets/worldmap/tiles/hills3.png": {
+      "hash": "f800441c677ae93f0c56f88e3e99bde1",
+      "mtimeMs": 1784984739704.3232,
+      "size": 7254
+    },
+    "game/assets/worldmap/tiles2/forest4.png": {
+      "hash": "ee06633b7541ca5774746a24ac1460a7",
+      "mtimeMs": 1784984739704.3232,
+      "size": 2994
+    },
+    "game/assets/worldmap/tiles2/shrubs3.png": {
+      "hash": "ef76faa3e11ec6ffa12f80d734d433af",
+      "mtimeMs": 1784984739704.3232,
+      "size": 6808
+    },
+    "game/assets/worldmap/tiles2/shrubs2.png": {
+      "hash": "ae5946c703cefa8ff6c18255f7aa812b",
+      "mtimeMs": 1784984739704.3232,
+      "size": 7336
+    },
+    "game/assets/worldmap/tiles2/hills2.png": {
+      "hash": "9896f4f52b3577d5e5c8e712425550fd",
+      "mtimeMs": 1784984739708.3225,
+      "size": 6391
+    },
+    "game/assets/worldmap/tiles2/mtns1.png": {
+      "hash": "9d5557c22757befedd41c7ef3a4aa34e",
+      "mtimeMs": 1784984739708.3225,
+      "size": 6706
+    },
+    "game/assets/worldmap/tiles2/hills3.png": {
+      "hash": "6c84bd8f225626cb1998b22ed89a27e7",
+      "mtimeMs": 1784984739708.3225,
+      "size": 7171
+    },
+    "game/assets/worldmap/tiles2/mtns3.png": {
+      "hash": "668cb5cb0ae67dbc67cbbfc634e20984",
+      "mtimeMs": 1784984739708.9778,
+      "size": 4183
+    },
+    "game/assets/worldmap/tiles2/mtns2.png": {
+      "hash": "8f207ec2990fe5f04d4e39426873c12b",
+      "mtimeMs": 1784984739708.9778,
+      "size": 8014
+    },
+    "game/assets/worldmap/tiles2/peak1.png": {
+      "hash": "53529192a440b78382401ad7ee922f39",
+      "mtimeMs": 1784984739796.8215,
+      "size": 9126
+    },
+    "game/assets/worldmap/summer/tiles/forest2.png": {
+      "hash": "b8f9ff49783896e233d2c35cc19affe9",
+      "mtimeMs": 1784984739796.8215,
+      "size": 10081
+    },
+    "game/assets/worldmap/summer/tiles/forest3.png": {
+      "hash": "9bdbc43869fe599ac0db8e238e401d7d",
+      "mtimeMs": 1784984739797.8198,
+      "size": 11926
+    },
+    "game/assets/worldmap/summer/tiles/shrubs3.png": {
+      "hash": "c80bcb8fd90319794140f29964d4f322",
+      "mtimeMs": 1784984739797.8198,
+      "size": 7219
+    },
+    "game/assets/worldmap/summer/tiles/Trees_01.png": {
+      "hash": "09f9be8f4596a53f1d0715ce7a634303",
+      "mtimeMs": 1784984739798.8206,
+      "size": 2086
+    },
+    "game/assets/worldmap/summer/tiles/Grass 1.png": {
+      "hash": "66b419f610fc7253fdf734836fd9639e",
+      "mtimeMs": 1784984739798.8206,
+      "size": 5600
+    },
+    "game/assets/worldmap/tiles2/peak2.png": {
+      "hash": "4f1383c21d51c85f2fe662136b9ebcb6",
+      "mtimeMs": 1784984739799.824,
+      "size": 8720
+    },
+    "game/assets/worldmap/summer/tiles/Grass 3.png": {
+      "hash": "4ec6dc6f92e1b53214b7d85a1333d037",
+      "mtimeMs": 1784984739799.824,
+      "size": 5810
+    },
+    "game/assets/worldmap/summer/tiles/Trees_03.png": {
+      "hash": "59b733f184dee57f6254c1496a160246",
+      "mtimeMs": 1784984739800.8242,
+      "size": 3151
+    },
+    "game/assets/worldmap/summer/tiles/Trees_02.png": {
+      "hash": "75a76aeed18023ae92564fd6a4df5e4d",
+      "mtimeMs": 1784984739800.8242,
+      "size": 2878
+    },
+    "game/assets/worldmap/summer/tiles/shrubs2.png": {
+      "hash": "a56b6a7974f0367b3aee9e57db7e1942",
+      "mtimeMs": 1784984739800.8242,
+      "size": 7496
+    },
+    "game/assets/worldmap/summer/tiles/Grass 4.png": {
+      "hash": "44ec59f022109d3f530b476b19eccdba",
+      "mtimeMs": 1784984739800.8242,
+      "size": 5311
+    },
+    "game/assets/worldmap/summer/tiles/shrubs1.png": {
+      "hash": "b888ccc6aa1c221517adb4a0c89447ee",
+      "mtimeMs": 1784984739800.8242,
+      "size": 5933
+    },
+    "game/assets/worldmap/summer/tiles/Grass 2.png": {
+      "hash": "f710c66be2fd97809a956e8dd6d953d3",
+      "mtimeMs": 1784984739800.8242,
+      "size": 5796
+    },
+    "game/assets/worldmap/summer/tiles/forest1.png": {
+      "hash": "aa6577a43200eb8bd4cb1ea1d6f0bdab",
+      "mtimeMs": 1784984739800.8242,
+      "size": 12321
+    },
+    "game/assets/worldmap/summer/tiles/Trees_04.png": {
+      "hash": "9643cb88b19de384fb4004df47533d2d",
+      "mtimeMs": 1784984739802.8203,
+      "size": 5265
+    },
+    "game/assets/worldmap/summer/tiles/Trees_05.png": {
+      "hash": "01868f7929fd3f721f7e72a8e21d1e8c",
+      "mtimeMs": 1784984739802.8203,
+      "size": 5207
+    },
+    "game/assets/worldmap/summer/tiles/Trees_06.png": {
+      "hash": "74d48d9d0fa450969157e56fe29a0717",
+      "mtimeMs": 1784984739802.8203,
+      "size": 6132
+    },
+    "game/assets/worldmap/summer/tiles/Trees_07.png": {
+      "hash": "0a30c375b56cd2588ab505b1c09d015d",
+      "mtimeMs": 1784984739802.8203,
+      "size": 4924
+    },
+    "game/assets/worldmap/summer/tiles/Trees_08.png": {
+      "hash": "18eda67d4e9ce245419a652b88a2893f",
+      "mtimeMs": 1784984739802.8203,
+      "size": 5184
+    },
+    "game/assets/worldmap/platoonhighlight/player.png": {
+      "hash": "a8a86e74b3a15513c986a758cfa6ad44",
+      "mtimeMs": 1784984739887.504,
+      "size": 1034
+    },
+    "game/assets/worldmap/summer/tiles/mtns2.png": {
+      "hash": "f9a9c48f461777d852c32e2d9a1d05df",
+      "mtimeMs": 1784984739887.504,
+      "size": 7455
+    },
+    "game/assets/worldmap/summer/tiles/mtns1.png": {
+      "hash": "e20f1141704cbe6817c53b550954e858",
+      "mtimeMs": 1784984739887.504,
+      "size": 6733
+    },
+    "game/assets/worldmap/summer/tiles/peak2.png": {
+      "hash": "e5cbfc0eae0c853deaa87ebd1d835b6f",
+      "mtimeMs": 1784984739887.504,
+      "size": 8495
+    },
+    "game/assets/worldmap/summer/tiles/hills1.png": {
+      "hash": "7f945b4a11c79699ea4ac9415e110a1a",
+      "mtimeMs": 1784984739888.5046,
+      "size": 6121
+    },
+    "game/assets/worldmap/summer/tiles/mtns3.png": {
+      "hash": "0c59523bf4a6e12bf154d68fe90f9838",
+      "mtimeMs": 1784984739888.5046,
+      "size": 9022
+    },
+    "game/assets/worldmap/summer/tiles/hills2.png": {
+      "hash": "45927c298ccefab81fe5261abf367eed",
+      "mtimeMs": 1784984739888.5046,
+      "size": 6433
+    },
+    "game/assets/worldmap/summer/tiles/hills3.png": {
+      "hash": "34a1fd011fd2a472421131952bfce400",
+      "mtimeMs": 1784984739889.504,
+      "size": 6811
+    },
+    "game/assets/worldmap/summer/tiles/peak1.png": {
+      "hash": "bea596ea661b7df125e5f5f43b7765f3",
+      "mtimeMs": 1784984739889.504,
+      "size": 7977
+    },
+    "game/assets/worldmap/platoonhighlight/selected.png": {
+      "hash": "5f42576aa98bf27c7c3ef976d6534260",
+      "mtimeMs": 1784984739984.2703,
+      "size": 1252
+    },
+    "game/assets/worldmap/platoonhighlight/enemy.png": {
+      "hash": "9d776a4d2ce652534fbccacc9aa4d546",
+      "mtimeMs": 1784984740083.486,
+      "size": 2937
+    },
+    "game/assets/worldmap/platoonhighlight/friend.png": {
+      "hash": "b270e3a776168716db56eb39a57498de",
+      "mtimeMs": 1784984740180.18,
+      "size": 1921
+    },
+    "game/assets/ui/backgrounds/Bkgd_Player_Savannah_6k_low.jpg": {
+      "hash": "b4748db8ae019d27a999774ca3863835",
+      "mtimeMs": 1784984741394.8245,
+      "size": 142895
+    },
+    "game/assets/ui/backgrounds/Bkgd_Player_Savannah_6k_med_low.jpg": {
+      "hash": "e658bbbd4075dd05a352e1909c206974",
+      "mtimeMs": 1784984741759.7234,
+      "size": 3230194
+    },
+    "game/assets/ui/backgrounds/Bkgd_Player_Savannah_6k_med_high.jpg": {
+      "hash": "bd30ca0ac75b1c0d6924d0b585e23c6d",
+      "mtimeMs": 1784984741872.6707,
+      "size": 9665980
+    },
+    "game/assets/ui/backgrounds/Bkgd_Player_Savannah_6k.jpg": {
+      "hash": "cc335c63b37947f67c655491ff25da8e",
+      "mtimeMs": 1784984742191.7285,
+      "size": 19979248
+    },
+    "game/assets/buildings/towers/6.lvl1.png": {
+      "hash": "1593fd1274e8a9eba35b4826205319ab",
+      "mtimeMs": 1784984742329.3755,
+      "size": 10982
+    },
+    "game/assets/buildings/towers/blank.png": {
+      "hash": "71a50dbba44c78128b221b7df7bb51f1",
+      "mtimeMs": 1784984742329.3755,
+      "size": 95
+    },
+    "game/assets/buildings/towers/1.lvl4.png": {
+      "hash": "7dfc2bddf23717ba2238e3bd2550c354",
+      "mtimeMs": 1784984742329.3755,
+      "size": 68034
+    },
+    "game/assets/buildings/towers/1.lvl2.png": {
+      "hash": "fb7372c19ed63ee91afe9d251ec46f10",
+      "mtimeMs": 1784984742330.376,
+      "size": 70756
+    },
+    "game/assets/buildings/towers/1.lvl3.png": {
+      "hash": "d448c2ea49ae9f8430a8187b432d8ca5",
+      "mtimeMs": 1784984742330.376,
+      "size": 73870
+    },
+    "game/assets/buildings/towers/45.lvl1.png": {
+      "hash": "046b94d81dd32fdf59b65eabc9d67328",
+      "mtimeMs": 1784984742330.376,
+      "size": 99802
+    },
+    "game/assets/buildings/towers/44.lvl1.png": {
+      "hash": "b9915e92f86d49e48dd283ab36b887df",
+      "mtimeMs": 1784984742340.7935,
+      "size": 65641
+    },
+    "game/assets/buildings/towers/45.lvl3.png": {
+      "hash": "5d259f8ec082da66ce21dd21502248c2",
+      "mtimeMs": 1784984742345.8943,
+      "size": 108659
+    },
+    "game/assets/buildings/towers/60.lvl1.png": {
+      "hash": "a33fc4dbfa20417dbf35e0bd628bc885",
+      "mtimeMs": 1784984742572.6877,
+      "size": 73586
+    },
+    "game/assets/ui/healthbarsmall.png": {
+      "hash": "5f754d99f9d2f3407151888af3ed2d2b",
+      "mtimeMs": 1784984742575.7285,
+      "size": 562
+    },
+    "game/assets/ui/healthbarhuge.png": {
+      "hash": "57e1ee6157e9e7b7a95888c94793bbc9",
+      "mtimeMs": 1784984742581.2327,
+      "size": 701
+    },
+    "game/assets/ui/rallyFlag1.png": {
+      "hash": "83c57809fadc6e13804db127e21a5ee9",
+      "mtimeMs": 1784984742582.7363,
+      "size": 1660
+    },
+    "game/assets/ui/healthbar_large.png": {
+      "hash": "cd062fe2e527c77d720d66e6d033f89b",
+      "mtimeMs": 1784984742582.7363,
+      "size": 557
+    },
+    "game/assets/ui/rallyFlag2.png": {
+      "hash": "9624436c3bce738594a3b2111ad6c12f",
+      "mtimeMs": 1784984742582.7363,
+      "size": 1572
+    },
+    "game/assets/ui/rallyFlag3.png": {
+      "hash": "80530a7106d336d288d99f21654b0273",
+      "mtimeMs": 1784984742686.913,
+      "size": 1007
+    },
+    "game/assets/ui/repair_unit/bkg_arrow_big.png": {
+      "hash": "ae58d60b784579c42bd35b02788d7ca1",
+      "mtimeMs": 1784984742692.9138,
+      "size": 947
+    },
+    "game/assets/ui/repair_unit/left_arrow.png": {
+      "hash": "bf215062e1a0ebe0fcd17472107ca88f",
+      "mtimeMs": 1784984742698.9685,
+      "size": 422
+    },
+    "game/assets/ui/repair_unit/bkg_arrow.png": {
+      "hash": "dfa9f7f19d1ea8bbaea71f1ddb6535ec",
+      "mtimeMs": 1784984742698.9685,
+      "size": 656
+    },
+    "game/assets/ui/repair_unit/bkg_repair.png": {
+      "hash": "be64b677713a8baaef9b96b0455ae67e",
+      "mtimeMs": 1784984742700.4714,
+      "size": 471
+    },
+    "game/assets/ui/repair_unit/bkg_recycle.png": {
+      "hash": "af50811b305f33a5e9b8bc6fbe274a7d",
+      "mtimeMs": 1784984742700.4714,
+      "size": 416
+    },
+    "game/assets/buildings/towers/73.lvl2.png": {
+      "hash": "1615132274642665f994402061db6394",
+      "mtimeMs": 1784984742734.67,
+      "size": 7536
+    },
+    "game/assets/buildings/towers/44.lvl9.png": {
+      "hash": "73c3a2c14a9eb793448e1f72b94c7fee",
+      "mtimeMs": 1784984743024.7368,
+      "size": 80230
+    },
+    "game/assets/buildings/towers/44.lvl11.png": {
+      "hash": "b1c30e6fc249850a746aaecfd7040d88",
+      "mtimeMs": 1784984743075.062,
+      "size": 97919
+    },
+    "game/assets/buildings/towers/45.lvl2.png": {
+      "hash": "bcceee9130e3df2fd5eebe5ee026c7b8",
+      "mtimeMs": 1784984743227.6643,
+      "size": 109131
+    },
+    "game/assets/buildings/towers/44.lvl12.png": {
+      "hash": "87bd184d1b5c01a4ccbd19b75e8f1646",
+      "mtimeMs": 1784984743341.9282,
+      "size": 98228
+    },
+    "game/assets/units/sheets/968.turret.png": {
+      "hash": "66076a08300a2d839c5338db46170061",
+      "mtimeMs": 1784984743477.8096,
+      "size": 116619
+    },
+    "game/assets/ui/repair_unit/plus.png": {
+      "hash": "dbce8857829ce531f4e578c5100999ab",
+      "mtimeMs": 1784984743991.1724,
+      "size": 99
+    },
+    "game/assets/ui/repair_unit/wrench_queued.png": {
+      "hash": "008b874edac7ad6cec4f3cd674fed62e",
+      "mtimeMs": 1784984743991.1724,
+      "size": 366
+    },
+    "game/assets/ui/repair_unit/wrench.png": {
+      "hash": "7f8fdc9caf8973da67a4f51fc5998629",
+      "mtimeMs": 1784984743991.1724,
+      "size": 291
+    },
+    "game/assets/units/sheets/1.png": {
+      "hash": "f4c556a2ba557a655a9a9ac499048aa2",
+      "mtimeMs": 1784984743991.1724,
+      "size": 54740
+    },
+    "game/assets/ui/repair_unit/right_arrow.png": {
+      "hash": "44efa0a1a6d4d8c64a1bbdf79e0c19ac",
+      "mtimeMs": 1784984743991.1724,
+      "size": 404
+    },
+    "game/assets/ui/repair_unit/recycle.png": {
+      "hash": "9006bb5a0883d115286379457566774a",
+      "mtimeMs": 1784984743991.1724,
+      "size": 466
+    },
+    "game/assets/ui/repair_unit/plus_queued.png": {
+      "hash": "05b0240e53de86d61cd632df1e38bedb",
+      "mtimeMs": 1784984743991.1724,
+      "size": 153
+    },
+    "game/assets/ui/worldmap/squads/SquadUnitArrowLeft.png": {
+      "hash": "1d85cc364ed142cfaea16919f90dc80e",
+      "mtimeMs": 1784984743991.1724,
+      "size": 1972
+    },
+    "game/assets/ui/worldmap/squads/SquadUnitArrowRight.png": {
+      "hash": "828b7e4c3208576d5be9500e3e8a8625",
+      "mtimeMs": 1784984743992.676,
+      "size": 1501
+    },
+    "game/assets/units/sheets/1009.png": {
+      "hash": "45695bd9d00d253b9694d18cd6c325b7",
+      "mtimeMs": 1784984744156.5125,
+      "size": 538801
+    },
+    "game/assets/units/sheets/978.png": {
+      "hash": "bfb6ff009009f0a5e0fe6bc201dd8212",
+      "mtimeMs": 1784984744171.1855,
+      "size": 1704288
+    },
+    "game/assets/ui/alliances/hud/hud.png": {
+      "hash": "bec435897a0d32f0ae9a36bf67cd1428",
+      "mtimeMs": 1784984744225.817,
+      "size": 2747
+    },
+    "game/assets/ranks/44.png": {
+      "hash": "1e6794c57cd8887eae2b371a379c2711",
+      "mtimeMs": 1784984744440.9326,
+      "size": 3489
+    },
+    "game/assets/buildings/doo/cars.png": {
+      "hash": "8b515d2a4ef2ee72d214a9461d64d65a",
+      "mtimeMs": 1784984744468.7085,
+      "size": 8347
+    },
+    "game/assets/buildings/14/top.21v2.png": {
+      "hash": "0474fe6acdf1bc55f520eef6bba8efe9",
+      "mtimeMs": 1784984744475.0005,
+      "size": 32605
+    },
+    "game/assets/buildings/14/anim.21.png": {
+      "hash": "31b769f7e25a57c694a400f219305f86",
+      "mtimeMs": 1784984744476.5032,
+      "size": 199395
+    },
+    "game/assets/buildings/1/top.1.png": {
+      "hash": "41717ff9186e88ef28860e008170bb2c",
+      "mtimeMs": 1784988243128.3613,
+      "size": 4969
+    },
+    "game/assets/buildings/2/anim.1.png": {
+      "hash": "e61f5cf72243ffd11a3d0e24281f8a58",
+      "mtimeMs": 1784984744836.5056,
+      "size": 40816
+    },
+    "game/assets/buildings/6/top.1.png": {
+      "hash": "3b3ac240783218372ab5c65dba259ffb",
+      "mtimeMs": 1784984744836.5056,
+      "size": 110049
+    },
+    "game/assets/buildings/1/anim.1.png": {
+      "hash": "a6663a5626b41344595319eda1408398",
+      "mtimeMs": 1784988243133.361,
+      "size": 13544
+    },
+    "game/assets/buildings/17.v2/top.13.png": {
+      "hash": "84676dc104ef1266540af4a4a679f455",
+      "mtimeMs": 1784984744850.6506,
+      "size": 3418
+    },
+    "game/assets/buildings/29/top.18.png": {
+      "hash": "5e51d05eb0d33804b924193491652e5f",
+      "mtimeMs": 1784984744850.6506,
+      "size": 21537
+    },
+    "game/assets/buildings/7.v2/top.46.png": {
+      "hash": "1ef49ec3255d4e791e0a0a4cdaa63ac0",
+      "mtimeMs": 1784984745074.3235,
+      "size": 155435
+    },
+    "game/assets/units/sheets/968.png": {
+      "hash": "eeb3431d6affdaf9275a5972a6c49e38",
+      "mtimeMs": 1784984745195.9714,
+      "size": 302579
+    },
+    "game/assets/buildings/26/top.16.png": {
+      "hash": "290fae8591d1f7a36d49409586b460d4",
+      "mtimeMs": 1784984745215.6543,
+      "size": 135058
+    },
+    "game/assets/buildings/10.v2/top.19.png": {
+      "hash": "12fce89feb5c70e38481ec4971978074",
+      "mtimeMs": 1784984745215.6543,
+      "size": 6185
+    },
+    "game/assets/buildings/4/top.1.v2.png": {
+      "hash": "ca631d92574475afef9060bbb43a674f",
+      "mtimeMs": 1784984745215.6543,
+      "size": 5823
+    },
+    "game/assets/buildings/4/anim.1.v2.png": {
+      "hash": "cf27ba6b38e9b2a6a415fcea81cf4031",
+      "mtimeMs": 1784984745220.6963,
+      "size": 13157
+    },
+    "game/assets/buildings/3/anim.1.png": {
+      "hash": "a2b8889d47789e6dc4c6ab70fb303c16",
+      "mtimeMs": 1784984745222.6958,
+      "size": 22103
+    },
+    "game/assets/buildings/28/top.10.png": {
+      "hash": "8dc2c15327f9639d50451426bf3ecac0",
+      "mtimeMs": 1784984745227.2852,
+      "size": 24909
+    },
+    "game/assets/buildings/30/anim.29.png": {
+      "hash": "46f14472c06273f3b82b8d72cb8b818b",
+      "mtimeMs": 1784984745232.7883,
+      "size": 109575
+    },
+    "game/assets/buildings/31/anim.16.png": {
+      "hash": "a6d3b32ff6c04f775069acf529bb899f",
+      "mtimeMs": 1784984745232.7883,
+      "size": 121796
+    },
+    "game/assets/buildings/8/top.46.png": {
+      "hash": "627a2b0c1f7a773dbbe147c3b756bfb1",
+      "mtimeMs": 1784984745234.7932,
+      "size": 165876
+    },
+    "game/assets/buildings/22/top.12.png": {
+      "hash": "2cb960c6e38fd3e3969a081181740138",
+      "mtimeMs": 1784984745344.6475,
+      "size": 8183
+    },
+    "game/assets/buildings/37/top.10.v2.png": {
+      "hash": "74f4fb0417c7fce7d3fd485de4ea60f9",
+      "mtimeMs": 1784984745344.6475,
+      "size": 15715
+    },
+    "game/assets/buildings/5/top.png": {
+      "hash": "bcf6186e31a42cf2d8b38ef4f97aeebf",
+      "mtimeMs": 1784984745349.4194,
+      "size": 9473
+    },
+    "game/assets/buildings/12/top.36.png": {
+      "hash": "7801697e91a722ad3a78d8526499e398",
+      "mtimeMs": 1784984745349.4194,
+      "size": 23157
+    },
+    "game/assets/buildings/111/top.19.png": {
+      "hash": "6ea16199c45e1bf9ad2b4e53b93278a3",
+      "mtimeMs": 1784984745350.4165,
+      "size": 5248
+    },
+    "game/assets/buildings/24/top.5.png": {
+      "hash": "a07ad3ee80e3b84e4714ab339680e4b0",
+      "mtimeMs": 1784984745349.4194,
+      "size": 1033
+    },
+    "game/assets/buildings/13/anim.46.png": {
+      "hash": "0ea319271790d7732f926119fc68e037",
+      "mtimeMs": 1784984745350.4165,
+      "size": 38253
+    },
+    "game/assets/buildings/46/top.21.png": {
+      "hash": "ef5ddea9245e600c7c88b861e79c2443",
+      "mtimeMs": 1784984745350.4165,
+      "size": 76244
+    },
+    "game/assets/buildings/24/top.destroyed.png": {
+      "hash": "d0795e9ab9d56e1a192b144fa8d4ac15",
+      "mtimeMs": 1784984745350.4165,
+      "size": 96
+    },
+    "game/assets/buildings/24/flag.png": {
+      "hash": "d1647cdac1e124699538e63f222cb783",
+      "mtimeMs": 1784984745350.4165,
+      "size": 788
+    },
+    "game/assets/buildings/19/top.21.png": {
+      "hash": "0116c424c8165743d4ccaaa26421fc1c",
+      "mtimeMs": 1784984745351.4167,
+      "size": 145818
+    },
+    "game/assets/units/sheets/958.png": {
+      "hash": "0cc268e2649d99e59b46b1e8e4611c06",
+      "mtimeMs": 1784984745358.029,
+      "size": 585109
+    },
+    "game/assets/buildings/42/top.1.v2.png": {
+      "hash": "82a3f3a02254e602182227100498e77e",
+      "mtimeMs": 1784984745562.9453,
+      "size": 5546
+    },
+    "game/assets/buildings/42/anim.1.v2.png": {
+      "hash": "7352f3c120abc84329518c4530b0eb88",
+      "mtimeMs": 1784984745712.87,
+      "size": 17415
+    },
+    "game/assets/buildings/74/top.1.v2.png": {
+      "hash": "717d4459f82125e6a9e059ae926e25e7",
+      "mtimeMs": 1784984745739.1418,
+      "size": 26207
+    },
+    "game/assets/buildings/74/special.1.v2.png": {
+      "hash": "84ea7443c648d8b95fe152cc162562ba",
+      "mtimeMs": 1784984745741.1445,
+      "size": 14502
+    },
+    "game/assets/buildings/162/anim.1.png": {
+      "hash": "900e06030fcfe31eb79f16a952d92b2b",
+      "mtimeMs": 1784984745743.6516,
+      "size": 30353
+    },
+    "game/assets/buildings/36/anim.14.png": {
+      "hash": "03c253b1b62c98b0e63cc94a5e82073c",
+      "mtimeMs": 1784984745743.6516,
+      "size": 15291
+    },
+    "game/assets/units/sheets/974.png": {
+      "hash": "53fb002791e1d9e353f95f9dece434ba",
+      "mtimeMs": 1784984745775.7583,
+      "size": 1877535
+    },
+    "game/assets/units/sheets/921.png": {
+      "hash": "9486da6c13e53f424ac79fe50da3a778",
+      "mtimeMs": 1784984745800.948,
+      "size": 1891881
+    },
+    "game/assets/buildings/80/top.10.png": {
+      "hash": "e43d51b35295d95816435b8ffffbedf1",
+      "mtimeMs": 1784984745824.6118,
+      "size": 13463
+    },
+    "game/assets/buildings/62/anim.15.png": {
+      "hash": "c6241f65ea84a0e57c77f39c9dc2c7c8",
+      "mtimeMs": 1784984745824.6118,
+      "size": 103556
+    },
+    "game/assets/buildings/118/top.10.png": {
+      "hash": "6e5150434ea95142ab93ce3f32fec4bb",
+      "mtimeMs": 1784984745824.6118,
+      "size": 9944
+    },
+    "game/assets/buildings/321/top.1.png": {
+      "hash": "4c0a1fdeb1478b1b709d906bedb5bf36",
+      "mtimeMs": 1784984745824.6118,
+      "size": 11609
+    },
+    "game/assets/buildings/207/top.10.png": {
+      "hash": "e43d51b35295d95816435b8ffffbedf1",
+      "mtimeMs": 1784984745824.6118,
+      "size": 13463
+    },
+    "game/assets/buildings/114/top.17.png": {
+      "hash": "a1e7e7303f07f30f6ea88a070d977cc4",
+      "mtimeMs": 1784984745828.6118,
+      "size": 9350
+    },
+    "game/assets/buildings/386/top.1.png": {
+      "hash": "13ee4481fd90a5cc59f27129927d849d",
+      "mtimeMs": 1784984745828.6118,
+      "size": 22473
+    },
+    "game/assets/buildings/306/top.1.png": {
+      "hash": "72fb54ba43d2466e6d4005d1422a32c0",
+      "mtimeMs": 1784984745828.6118,
+      "size": 115624
+    },
+    "game/assets/buildings/62/top.1.png": {
+      "hash": "b5291f47056c5f82567e199f02d63717",
+      "mtimeMs": 1784984745830.6125,
+      "size": 95
+    },
+    "game/assets/buildings/322/top.1.png": {
+      "hash": "76db7a1ef2e229ef4cd3596a10e69836",
+      "mtimeMs": 1784984745830.6125,
+      "size": 12827
+    },
+    "game/assets/buildings/281/top.1.png": {
+      "hash": "4af27909d21bb583485349dd1f539075",
+      "mtimeMs": 1784984745830.6125,
+      "size": 26713
+    },
+    "game/assets/buildings/320/top.3.png": {
+      "hash": "f0b599bb1b4b14f7d5f26cdb1644dcb1",
+      "mtimeMs": 1784984745830.6125,
+      "size": 151630
+    },
+    "game/assets/buildings/323/top.1.png": {
+      "hash": "8adf346331df720c336d0c611c1c67ef",
+      "mtimeMs": 1784984745831.6118,
+      "size": 12432
+    },
+    "game/assets/buildings/363/top.1.png": {
+      "hash": "1d48a7c9537b4b870b499396fe76477f",
+      "mtimeMs": 1784984745831.6118,
+      "size": 28103
+    },
+    "game/assets/buildings/135/top.1.png": {
+      "hash": "bbe29653cae23135573775d9c0799bcc",
+      "mtimeMs": 1784984746223.8562,
+      "size": 10516
+    },
+    "game/assets/buildings/406/top.1.png": {
+      "hash": "8bf3e6803121a51553d6a4c572eca466",
+      "mtimeMs": 1784984746223.8562,
+      "size": 24867
+    },
+    "game/assets/buildings/404/top.1.png": {
+      "hash": "49e96b990c7d2493da49da366fd8b9a4",
+      "mtimeMs": 1784984746224.855,
+      "size": 173856
+    },
+    "game/assets/buildings/364/top.1.png": {
+      "hash": "0e50e205451c664de1ecaaa48d501269",
+      "mtimeMs": 1784984746224.855,
+      "size": 52032
+    },
+    "game/assets/buildings/135/anim.1.png": {
+      "hash": "332eefc4c31dc9c141193cd25eed0b05",
+      "mtimeMs": 1784984746225.8547,
+      "size": 24767
+    },
+    "game/assets/buildings/403/top.1.png": {
+      "hash": "d9046666d37a600101695b5e59d4f708",
+      "mtimeMs": 1784984746232.8645,
+      "size": 239871
+    },
+    "game/assets/buildings/405/top.1.png": {
+      "hash": "7456ea3618984b11966cffd9bc77e9b8",
+      "mtimeMs": 1784984746337.849,
+      "size": 23996
+    },
+    "game/assets/buildings/409/top.1.png": {
+      "hash": "db3bdfbf64aa9fe81479b5702d67f016",
+      "mtimeMs": 1784984746338.849,
+      "size": 8345
+    },
+    "game/assets/buildings/412/top.1.png": {
+      "hash": "26c46a86dd187b1f6c6b955827dd0043",
+      "mtimeMs": 1784984746338.849,
+      "size": 8817
+    },
+    "game/assets/buildings/408/top.1.png": {
+      "hash": "920a0c81f82b535f90b6e6ca85161ea7",
+      "mtimeMs": 1784984746338.849,
+      "size": 8441
+    },
+    "game/assets/buildings/411/top.1.png": {
+      "hash": "fbdbb23b16f880e5664a760a27c72f21",
+      "mtimeMs": 1784984746339.849,
+      "size": 8987
+    },
+    "game/assets/ui/widgets/spawner_frame.png": {
+      "hash": "acd10938e2412c363ed158092583b76d",
+      "mtimeMs": 1784984746339.849,
+      "size": 2469
+    },
+    "game/assets/ui/tutorial/portraits.png": {
+      "hash": "66bcb6536f385b60e4e87bf57904d838",
+      "mtimeMs": 1784984746339.849,
+      "size": 26188
+    },
+    "game/assets/buildings/406/anim.1.png": {
+      "hash": "11c5799b18cf42771803ab34e4a83ee4",
+      "mtimeMs": 1784984746339.849,
+      "size": 42006
+    },
+    "game/assets/buildings/36/anim.5.png": {
+      "hash": "b825bfe0a6bed3687a1c481147ecdcab",
+      "mtimeMs": 1784984746339.849,
+      "size": 29973
+    },
+    "game/assets/buildings/46/special.1.v2.png": {
+      "hash": "84ea7443c648d8b95fe152cc162562ba",
+      "mtimeMs": 1784984746339.849,
+      "size": 14502
+    },
+    "game/assets/buildings/36/top.1.png": {
+      "hash": "b5291f47056c5f82567e199f02d63717",
+      "mtimeMs": 1784984746339.849,
+      "size": 95
+    },
+    "game/assets/buildings/74/special.2.v2.png": {
+      "hash": "180b826e2b6e0f69aa406ca238308c38",
+      "mtimeMs": 1784984746339.849,
+      "size": 14122
+    },
+    "game/assets/units/portrait/764-60.jpg": {
+      "hash": "ba1025205b2d92fb0946755d24177a78",
+      "mtimeMs": 1784984746339.849,
+      "size": 2379
+    },
+    "game/assets/buildings/405/anim.1.png": {
+      "hash": "f12638677af0de52b4a78c49e704f9f5",
+      "mtimeMs": 1784984746340.8496,
+      "size": 242875
+    },
+    "game/assets/units/portrait/870-60.jpg": {
+      "hash": "2403b43ee2cf8497d625f7802b8ebc99",
+      "mtimeMs": 1784984746340.8496,
+      "size": 2609
+    },
+    "game/assets/ui/widgets/bottom_hud_finish.png": {
+      "hash": "83dd20818e92b1b758b564207f62f51f",
+      "mtimeMs": 1784984746340.8496,
+      "size": 1517
+    },
+    "game/assets/ui/buffs/active_check.png": {
+      "hash": "646672bcd5a0784d137245f3cddf6bf2",
+      "mtimeMs": 1784984746360.38,
+      "size": 908
+    },
+    "game/assets/ui/buffs/Info_Panel.png": {
+      "hash": "1811a2f33daee7cd4dc3539d1a9ff23a",
+      "mtimeMs": 1784984746360.38,
+      "size": 9833
+    },
+    "game/assets/ui/buffs/Inv_window.png": {
+      "hash": "ed0d5a0f006c692d6fa4b5530d7aad3b",
+      "mtimeMs": 1784984746361.3804,
+      "size": 39090
+    },
+    "game/assets/ui/buffs/Overflow_window.png": {
+      "hash": "afeae94d0c9e1c1a7ce383ef7af9259e",
+      "mtimeMs": 1784984746361.3804,
+      "size": 9238
+    },
+    "game/assets/ui/buffs/Defense_symbol.png": {
+      "hash": "656f709fbbb742ac776d574395dc302c",
+      "mtimeMs": 1784984746416.197,
+      "size": 3907
+    },
+    "game/assets/ui/missiles/defense_hud_background.png": {
+      "hash": "2b136c732740d327900a992c33a672d6",
+      "mtimeMs": 1784984746416.197,
+      "size": 8111
+    },
+    "game/assets/units/statuses/cc_shield.png": {
+      "hash": "86e45ea79df57c278c26cb9fb89888aa",
+      "mtimeMs": 1784984746416.197,
+      "size": 3798
+    },
+    "game/assets/ui/widgets/activitybutton/btn_speedup.png": {
+      "hash": "f4ebb0a12395cea692677bff5b2aefe5",
+      "mtimeMs": 1784984746416.197,
+      "size": 1703
+    },
+    "game/assets/buildings/doo/doodads.v2/tree1.v2.png": {
+      "hash": "cf6c58d4e0c0a1b0543452bf4daca1e2",
+      "mtimeMs": 1784984746416.197,
+      "size": 6748
+    },
+    "game/assets/units/basicstatuses/skull2.png": {
+      "hash": "bbed0eea9ad5031c624ef63ce41e82ae",
+      "mtimeMs": 1784984746417.1963,
+      "size": 285
+    },
+    "game/assets/ui/missiles/defense_timer_bar.png": {
+      "hash": "b158c39e9b347dfd3a861ceaac6f006d",
+      "mtimeMs": 1784984746417.1963,
+      "size": 892
+    },
+    "game/assets/ui/buffs/Special_symbol.png": {
+      "hash": "f92f341d0b2fb0b21170d560934dc765",
+      "mtimeMs": 1784984746417.1963,
+      "size": 3809
+    },
+    "game/assets/ui/widgets/activitybutton/btn_speedup_mouseover.png": {
+      "hash": "4662ad97a2d561114059d627441434cd",
+      "mtimeMs": 1784984746417.1963,
+      "size": 1810
+    },
+    "game/assets/ui/buffs/Offense_symbol.png": {
+      "hash": "7162eb97ce49d88a529aac8ec622c1dc",
+      "mtimeMs": 1784984746417.1963,
+      "size": 3465
+    },
+    "game/assets/ui/alliances/add_symbol.png": {
+      "hash": "9227c57cfb9b7141da7c4c11cb490505",
+      "mtimeMs": 1784984746417.1963,
+      "size": 903
+    },
+    "game/assets/buildings/doo/doodads.v2/tree5.v2.png": {
+      "hash": "cd5f394c2fc94c3f1296ec9bcfae2d63",
+      "mtimeMs": 1784984746417.1963,
+      "size": 4573
+    },
+    "game/assets/ui/missiles/defense_direction_overlay.png": {
+      "hash": "7b3798af08c100551ef35c2a4bb573de",
+      "mtimeMs": 1784984746417.1963,
+      "size": 1366
+    },
+    "game/assets/buildings/doo/doodads.v2/tree2.v2.png": {
+      "hash": "732c4ca34c0ff3207a45ecb48020e084",
+      "mtimeMs": 1784984746418.1963,
+      "size": 4148
+    },
+    "game/assets/ui/missiles/defense_direction_mask.png": {
+      "hash": "3d22f0ebdfca1f7f1c45c092858ba890",
+      "mtimeMs": 1784984746418.1963,
+      "size": 1527
+    },
+    "game/assets/worldmap/entities/v2/enflamed_grid_small.png": {
+      "hash": "47c3fb1b3d9689837179aba74bc0aa8e",
+      "mtimeMs": 1784984746418.1963,
+      "size": 9127
+    },
+    "game/assets/buildings/doo/doodads.v2/tree7.v2.png": {
+      "hash": "f75b5c4306719efebd96223364479045",
+      "mtimeMs": 1784984746434.757,
+      "size": 5102
+    },
+    "game/assets/buildings/doo/doodads.v2/tree8.v2.png": {
+      "hash": "90101ef380eb0fd55048ba67637c15a4",
+      "mtimeMs": 1784984746455.114,
+      "size": 4954
+    },
+    "game/assets/buildings/doo/doodads.v2/bldg1.png": {
+      "hash": "ec2676df0377538e63c69745e5baa52c",
+      "mtimeMs": 1784984746455.114,
+      "size": 21510
+    },
+    "game/assets/buildings/doo/doodads.v2/bldg2.png": {
+      "hash": "629366f06c6c14f794297fe1b5f0f65f",
+      "mtimeMs": 1784984746457.1138,
+      "size": 28565
+    },
+    "game/assets/buildings/doo/doodads.v2/tower3.png": {
+      "hash": "946d83020cd51cbc712de356e1dbf953",
+      "mtimeMs": 1784984746535.4246,
+      "size": 8030
+    },
+    "game/assets/buildings/doo/doodads.v2/bldg3.png": {
+      "hash": "94d97cae40726b07388731f17db881c7",
+      "mtimeMs": 1784984746535.4246,
+      "size": 36198
+    },
+    "game/assets/buildingbuttons/1-1-s.jpg": {
+      "hash": "4181ae26641d9d5d2b56279427755402",
+      "mtimeMs": 1784988243153.4766,
+      "size": 6927
+    },
+    "game/assets/buildings/doo/doodads.v2/tower2.png": {
+      "hash": "225d6f8fd85149e6935653c0d6c150d1",
+      "mtimeMs": 1784984746535.4246,
+      "size": 17408
+    },
+    "game/assets/ui/offer_tool/backgrounds/2026_phoenix_offer_715x300.png": {
+      "hash": "30ade578e72ad31a32340c79e2b6587a",
+      "mtimeMs": 1784984783821.7402,
+      "size": 514157
+    },
+    "game/assets/ui/offer_tool/backgrounds/Offer_tool_F.png": {
+      "hash": "65f5b6d9a24e642fdf3d03333e9f071f",
+      "mtimeMs": 1784984822855.4365,
+      "size": 131803
+    },
+    "game/assets/units/portrait/783-60.jpg": {
+      "hash": "aeb7e74074c2a8c52637ec3cf2aa3556",
+      "mtimeMs": 1784984830737.1682,
+      "size": 2254
+    },
+    "game/assets/units/portrait/958-60.jpg": {
+      "hash": "e110f42f24fef612e74bf82c35513010",
+      "mtimeMs": 1784984830743.1687,
+      "size": 2883
+    },
+    "game/assets/units/portrait/874-60.jpg": {
+      "hash": "33976e13dcd219e5f08aa1bdd53b7122",
+      "mtimeMs": 1784984830743.1687,
+      "size": 2685
+    },
+    "game/assets/units/portrait/70.omega-60.jpg": {
+      "hash": "2da587f04bc8902286ff61cb14b870ed",
+      "mtimeMs": 1784984830748.682,
+      "size": 2048
+    },
+    "game/assets/units/portrait/741-60.jpg": {
+      "hash": "e5c376be835e942f6bcd538b122d3401",
+      "mtimeMs": 1784984830750.6826,
+      "size": 2083
+    },
+    "game/assets/units/portrait/472-60.jpg": {
+      "hash": "7e149acee13b0ee6f767a498781bf521",
+      "mtimeMs": 1784984830750.6826,
+      "size": 2249
+    },
+    "game/assets/units/portrait/1057-60.jpg": {
+      "hash": "3492128fe5be90d949040ec0d296c502",
+      "mtimeMs": 1784984830752.2312,
+      "size": 11790
+    },
+    "game/assets/units/portrait/1036-60.jpg": {
+      "hash": "6df99290ac2c5ea3951b83a4f588a26c",
+      "mtimeMs": 1784984830753.2356,
+      "size": 14445
+    },
+    "game/assets/units/portrait/974-60.jpg": {
+      "hash": "d9dc8b88ef16e8f7e92c792a3ae6922c",
+      "mtimeMs": 1784984830753.2356,
+      "size": 13497
+    },
+    "game/assets/units/portrait/1036-90.jpg": {
+      "hash": "8b4c6c041fdd1538bfafb3b1f0094f0a",
+      "mtimeMs": 1784984830754.7383,
+      "size": 19930
+    },
+    "game/assets/units/portrait/921-60.jpg": {
+      "hash": "1d9bb8e788e528f58cd31424de035234",
+      "mtimeMs": 1784984830754.7383,
+      "size": 12891
+    },
+    "game/assets/units/portrait/945-60.jpg": {
+      "hash": "977f5d5129d61dd1551ef840f657800c",
+      "mtimeMs": 1784984830754.7383,
+      "size": 13810
+    },
+    "game/assets/units/portrait/968-60.jpg": {
+      "hash": "f0409fe5081659d3341f4743457b8eb0",
+      "mtimeMs": 1784984830754.7383,
+      "size": 13735
+    },
+    "game/assets/units/portrait/876-60.jpg": {
+      "hash": "1f1ae1b35100fbd5194a7c6b4a2899fb",
+      "mtimeMs": 1784984830754.7383,
+      "size": 13699
+    },
+    "game/assets/units/portrait/875-60.jpg": {
+      "hash": "1be237f50f3e367d5421f27e47c4114b",
+      "mtimeMs": 1784984830755.7417,
+      "size": 15694
+    },
+    "game/assets/units/portrait/1057-90.jpg": {
+      "hash": "b69f9b9aadb03863dcd83e1c66981641",
+      "mtimeMs": 1784984830755.7417,
+      "size": 15478
+    },
+    "game/assets/units/portrait/959-60.jpg": {
+      "hash": "30523d9cbfa99161922b9762faa1ae30",
+      "mtimeMs": 1784984830937.9194,
+      "size": 14099
+    },
+    "game/assets/units/portrait/1003-60.jpg": {
+      "hash": "d0e799c94d7dc81a486f0955afc32f7c",
+      "mtimeMs": 1784984831042.1084,
+      "size": 5264
+    },
+    "game/assets/units/portrait/821-60.jpg": {
+      "hash": "e77cffcc49cdbdf29725f14c90ffac23",
+      "mtimeMs": 1784984831043.11,
+      "size": 2318
+    },
+    "game/assets/units/portrait/408-60.jpg": {
+      "hash": "0f2a9e093e8df60688eefaefbf0bbd98",
+      "mtimeMs": 1784984831043.11,
+      "size": 2524
+    },
+    "game/assets/units/portrait/911-60.jpg": {
+      "hash": "64b98ff7bcc99cad623c8d5b4c403371",
+      "mtimeMs": 1784984831100.5286,
+      "size": 14376
+    },
+    "game/assets/units/portrait/596-90.jpg": {
+      "hash": "872ecb6ecfa9523310b2f7db0d0956d8",
+      "mtimeMs": 1784984831100.5286,
+      "size": 3353
+    },
+    "game/assets/units/portrait/897-60.jpg": {
+      "hash": "ca245cba9e477faf51ec083e4971bd4b",
+      "mtimeMs": 1784984831100.5286,
+      "size": 14536
+    },
+    "game/assets/units/portrait/895-60.jpg": {
+      "hash": "723169f990c10054a3a82a7994083edd",
+      "mtimeMs": 1784984831100.5286,
+      "size": 7479
+    },
+    "game/assets/units/portrait/974-90.jpg": {
+      "hash": "603790701f45aa3f3bec04c45df09228",
+      "mtimeMs": 1784984831100.5286,
+      "size": 17571
+    },
+    "game/assets/units/portrait/1035.elite-60.jpg": {
+      "hash": "0bc41a1e2c21f69f92a28c446c669cc5",
+      "mtimeMs": 1784984831100.5286,
+      "size": 11061
+    },
+    "game/assets/units/portrait/1038-60.jpg": {
+      "hash": "d5e013be4acf926451670dff17b79eb6",
+      "mtimeMs": 1784984831100.5286,
+      "size": 12845
+    },
+    "game/assets/units/portrait/1047-60.jpg": {
+      "hash": "d7577ba5eecb03816f2225be845ba2e5",
+      "mtimeMs": 1784984831100.5286,
+      "size": 6206
+    },
+    "game/assets/units/portrait/1046-60.jpg": {
+      "hash": "475d20ac40a5843319e2323d514f2b56",
+      "mtimeMs": 1784984831100.5286,
+      "size": 12350
+    },
+    "game/assets/units/portrait/12.2-90.jpg": {
+      "hash": "b2af4083f3c63d2270a992638302f056",
+      "mtimeMs": 1784984831101.526,
+      "size": 2557
+    },
+    "game/assets/units/portrait/894-60.jpg": {
+      "hash": "03cbfeeea261f9b69b066dc30d128b47",
+      "mtimeMs": 1784984831102.5273,
+      "size": 11270
+    },
+    "game/assets/units/portrait/976-60.jpg": {
+      "hash": "53de535f962ff61c84e34055b317de18",
+      "mtimeMs": 1784984831102.5273,
+      "size": 14420
+    },
+    "game/assets/units/portrait/533-90.jpg": {
+      "hash": "8ebcccabdbb77979665edecf7973e861",
+      "mtimeMs": 1784984831102.5273,
+      "size": 3199
+    },
+    "game/assets/units/portrait/865-90.jpg": {
+      "hash": "8ed3661ac213cb0c1a8db410ccfda246",
+      "mtimeMs": 1784984831102.5273,
+      "size": 3063
+    },
+    "game/assets/units/portrait/1084-90.jpg": {
+      "hash": "56fc02fd7dd649406cf1cfaf85e4649a",
+      "mtimeMs": 1784984831103.5254,
+      "size": 6825
+    },
+    "game/assets/units/portrait/447-60.jpg": {
+      "hash": "b261434cea8047f10e2460d7ce687276",
+      "mtimeMs": 1784984831103.5254,
+      "size": 2536
+    },
+    "game/assets/units/portrait/953-60.jpg": {
+      "hash": "fd8bc938c7cbeca6b974084f575af230",
+      "mtimeMs": 1784984831103.5254,
+      "size": 11194
+    },
+    "game/assets/units/portrait/436-60.jpg": {
+      "hash": "5f29a61fd43d50e0fb0122a0d1982acc",
+      "mtimeMs": 1784984831103.5254,
+      "size": 2397
+    },
+    "game/assets/units/portrait/421-60.jpg": {
+      "hash": "6844ae7cdec10801c73d6e80883529b9",
+      "mtimeMs": 1784984831104.5266,
+      "size": 14283
+    },
+    "game/assets/units/portrait/611-60.jpg": {
+      "hash": "0350adf18f446a340e4ef799588045b2",
+      "mtimeMs": 1784984831195.4187,
+      "size": 2181
+    },
+    "game/assets/units/portrait/957-60.jpg": {
+      "hash": "f1aafedf74a5ae36916115e5f91e25ac",
+      "mtimeMs": 1784984831195.4187,
+      "size": 11148
+    },
+    "game/assets/units/portrait/891-60.jpg": {
+      "hash": "26e78f8f3adfde531681c16a2d9f557a",
+      "mtimeMs": 1784984831195.4187,
+      "size": 5738
+    },
+    "game/assets/units/portrait/1076-60.jpg": {
+      "hash": "97e0cfe138a7d8b936e7ca8ae83807d7",
+      "mtimeMs": 1784984831197.4204,
+      "size": 14041
+    },
+    "game/assets/units/portrait/1056.elite-60.jpg": {
+      "hash": "9724175055db91357d0e47eaadbbb47a",
+      "mtimeMs": 1784984831197.4204,
+      "size": 11734
+    },
+    "game/assets/units/portrait/882-60.jpg": {
+      "hash": "4b938b7c7f2f726330c6ee31388dade3",
+      "mtimeMs": 1784984831197.4204,
+      "size": 1998
+    },
+    "game/assets/units/portrait/708-60.jpg": {
+      "hash": "596b9d30e0a8ad73e70b8c311892c2a8",
+      "mtimeMs": 1784984831197.4204,
+      "size": 1834
+    },
+    "game/assets/units/portrait/533-60.jpg": {
+      "hash": "24bd844ca8fb49cab169f60464763a0f",
+      "mtimeMs": 1784984831197.4204,
+      "size": 2147
+    },
+    "game/assets/units/portrait/477-60.jpg": {
+      "hash": "bb8dc90f94cbc050664f6e3e19d4f40b",
+      "mtimeMs": 1784984831197.4204,
+      "size": 2362
+    },
+    "game/assets/units/portrait/802-60.jpg": {
+      "hash": "7fca2a6e722848d013f752a4d5657f7f",
+      "mtimeMs": 1784984831197.4204,
+      "size": 2271
+    },
+    "game/assets/units/portrait/902-60.jpg": {
+      "hash": "d97da03cb3dd9ef0043cfd5c588bc807",
+      "mtimeMs": 1784984831198.4192,
+      "size": 13677
+    },
+    "game/assets/units/portrait/502-60.jpg": {
+      "hash": "9f73370c013d392e4afef62d11b71798",
+      "mtimeMs": 1784984831198.4192,
+      "size": 1599
+    },
+    "game/assets/units/portrait/397-60.jpg": {
+      "hash": "403efc22d836c54ee19176ee292a9559",
+      "mtimeMs": 1784984831198.4192,
+      "size": 11848
+    },
+    "game/assets/units/portrait/1068-60.jpg": {
+      "hash": "f9bd2b4ea8fdc25fc6746928f6f274dd",
+      "mtimeMs": 1784984831198.4192,
+      "size": 6889
+    },
+    "game/assets/units/portrait/1019.elite-60.jpg": {
+      "hash": "7e238b51997ce7b48c22e3cf7a458f7e",
+      "mtimeMs": 1784984831199.4194,
+      "size": 12261
+    },
+    "game/assets/units/portrait/1067-60.jpg": {
+      "hash": "8f7ea42c573fefd5e9a5131f8521c883",
+      "mtimeMs": 1784984831199.4194,
+      "size": 12248
+    },
+    "game/assets/units/portrait/1038-90.jpg": {
+      "hash": "007d061556a3961848e524a7635844d1",
+      "mtimeMs": 1784984831288.6404,
+      "size": 17015
+    },
+    "game/assets/units/portrait/1027-60.jpg": {
+      "hash": "7b86e01df5fd57a85c4c53fbab7833f4",
+      "mtimeMs": 1784984831294.6428,
+      "size": 13933
+    },
+    "game/assets/units/portrait/284-60.jpg": {
+      "hash": "f46b5b5bdf63b1d68918971c9bba6658",
+      "mtimeMs": 1784984831296.6758,
+      "size": 2735
+    },
+    "game/assets/units/portrait/1017-60.jpg": {
+      "hash": "b8af02de27fe409b2413939aa452333d",
+      "mtimeMs": 1784984831296.6758,
+      "size": 10779
+    },
+    "game/assets/units/portrait/971-60.jpg": {
+      "hash": "127165db22a5e4e0277301d1b70c186f",
+      "mtimeMs": 1784984831296.6758,
+      "size": 12408
+    },
+    "game/assets/units/portrait/222-60.jpg": {
+      "hash": "695ff33fef0bfaca66f90ea4e464cd00",
+      "mtimeMs": 1784984831296.6758,
+      "size": 2045
+    },
+    "game/assets/units/portrait/1040-60.jpg": {
+      "hash": "7e1e5f9b9ed2f86a6806dbc4c10e6ea9",
+      "mtimeMs": 1784984831297.675,
+      "size": 13051
+    },
+    "game/assets/units/portrait/1029-60.jpg": {
+      "hash": "25d214a7df0ceb9fa4a2dd4c1db73486",
+      "mtimeMs": 1784984831297.675,
+      "size": 15141
+    },
+    "game/assets/units/portrait/304-60.jpg": {
+      "hash": "3183b36ac97fb777f7cc23abb92aed2a",
+      "mtimeMs": 1784984831297.675,
+      "size": 2269
+    },
+    "game/assets/units/portrait/213-60.jpg": {
+      "hash": "805c4bc5241584e7b3e4e794fd9690f3",
+      "mtimeMs": 1784984831297.675,
+      "size": 2269
+    },
+    "game/assets/units/portrait/1041-90.jpg": {
+      "hash": "25dfff6e5eca5eb6d875d8a55829459d",
+      "mtimeMs": 1784984831298.6753,
+      "size": 6406
+    },
+    "game/assets/units/portrait/1022-60.jpg": {
+      "hash": "61dc9a75a3855a795657427211193e87",
+      "mtimeMs": 1784984831298.6753,
+      "size": 14162
+    },
+    "game/assets/units/portrait/1049-60.jpg": {
+      "hash": "34e7f4fbd8038af9e3fb50bee134e668",
+      "mtimeMs": 1784984831469.5876,
+      "size": 4515
+    },
+    "game/assets/units/portrait/1030-60.jpg": {
+      "hash": "eaa43576b1dcdb733109e2521268599a",
+      "mtimeMs": 1784984831471.5884,
+      "size": 12752
+    },
+    "game/assets/units/portrait/984-60.jpg": {
+      "hash": "1a2fbbea97cfbdadce19b9ec5bb5a75d",
+      "mtimeMs": 1784984831477.6167,
+      "size": 11470
+    },
+    "game/assets/units/portrait/447-90.jpg": {
+      "hash": "424b3e8920a177f213d2fc4c7ef9f78b",
+      "mtimeMs": 1784984831477.6167,
+      "size": 3706
+    },
+    "game/assets/units/portrait/951-60.jpg": {
+      "hash": "dc3a680cf12d62e88c6e4036e636e32c",
+      "mtimeMs": 1784984831478.616,
+      "size": 5038
+    },
+    "game/assets/units/portrait/896-60.jpg": {
+      "hash": "5ac49c5df2d455251a423d466b91f7ae",
+      "mtimeMs": 1784984831478.616,
+      "size": 11263
+    },
+    "game/assets/units/portrait/251-60.jpg": {
+      "hash": "9377eda192019abb52e4c09517fd603f",
+      "mtimeMs": 1784984831481.6152,
+      "size": 2300
+    },
+    "game/assets/units/portrait/202.uncommon-60.jpg": {
+      "hash": "dba394dda2305c573952eec357057f01",
+      "mtimeMs": 1784984831481.6152,
+      "size": 2069
+    },
+    "game/assets/units/portrait/212-60.jpg": {
+      "hash": "f0c3367b20cca3368c210c6e29f1fcaa",
+      "mtimeMs": 1784984831481.6152,
+      "size": 2253
+    },
+    "game/assets/units/portrait/1124-60.jpg": {
+      "hash": "ff1e55cbac8655cb1afcc19709c8d69c",
+      "mtimeMs": 1784984831481.6152,
+      "size": 11470
+    },
+    "game/assets/units/portrait/882-90.jpg": {
+      "hash": "6c0a0532a8973b484852a616a31a13da",
+      "mtimeMs": 1784984831578.7537,
+      "size": 2778
+    },
+    "game/assets/units/portrait/21.2-90.jpg": {
+      "hash": "8d1c138ae2594a65efc87b86d6e2e606",
+      "mtimeMs": 1784984831649.844,
+      "size": 2751
+    },
+    "game/assets/units/portrait/903-90.jpg": {
+      "hash": "3585a42410e599e002f5053b748f5e1d",
+      "mtimeMs": 1784984831657.6538,
+      "size": 12838
+    },
+    "game/assets/units/portrait/396-90.jpg": {
+      "hash": "f04452565131389bbcdc73617bf86a78",
+      "mtimeMs": 1784984831700.6272,
+      "size": 22357
+    },
+    "game/assets/units/portrait/951-90.jpg": {
+      "hash": "1232b5a8d456841a56e460c3f9d1ca36",
+      "mtimeMs": 1784984831843.6084,
+      "size": 8395
+    },
+    "game/assets/units/portrait/3.2-90.jpg": {
+      "hash": "c74258848e1da40ff755f477e76aa465",
+      "mtimeMs": 1784984831844.6082,
+      "size": 2648
+    },
+    "game/assets/units/portrait/251-90.jpg": {
+      "hash": "7b2831f0397656e3f0d1321ed828f218",
+      "mtimeMs": 1784984831899.6707,
+      "size": 3436
+    },
+    "game/assets/ui/worldmap/rollover/mouseover_bare_background.png": {
+      "hash": "830ea626026e79601eec511ff37034ea",
+      "mtimeMs": 1784984854520.858,
+      "size": 121
+    },
+    "game/assets/ui/worldmap/rollover/mouseover_profile_pic_frame.png": {
+      "hash": "8add86560e5a0485b077d284a339be01",
+      "mtimeMs": 1784984854521.858,
+      "size": 132
+    },
+    "game/assets/ui/worldmap/rollover/mouseover_vert_border.png": {
+      "hash": "9506ba6dc203b4286afc52bd7802bcf6",
+      "mtimeMs": 1784984854521.858,
+      "size": 175
+    },
+    "game/assets/worldmap/platoonsprites/32-turn-humvee-anim.png": {
+      "hash": "bf9e27d88bdae4933268d8020e98089b",
+      "mtimeMs": 1784984854606.1116,
+      "size": 18519
+    },
+    "game/assets/worldmap/platoonsprites/32-turn-dog-anim.png": {
+      "hash": "28c03851531b19d82fccbe5ba3002edd",
+      "mtimeMs": 1784984854606.1116,
+      "size": 41326
+    },
+    "game/assets/worldmap/platoonsprites/32-turn-tank-anim.png": {
+      "hash": "bd82b511dcb9af89d9fcdbd718e38f1f",
+      "mtimeMs": 1784984854610.619,
+      "size": 23339
+    },
+    "game/assets/ui/worldmap/rollover/icn_factioninfo.png": {
+      "hash": "69dd1a7cbbb13924abfb5ca115cbb835",
+      "mtimeMs": 1784984854610.619,
+      "size": 1324
+    },
+    "game/assets/worldmap/platoonsprites/32-turn-infantry-anim.png": {
+      "hash": "bd9cdb1cbaf740780a95566d80bd469f",
+      "mtimeMs": 1784984854612.1226,
+      "size": 60629
+    },
+    "game/assets/worldmap/platoonsprites/32-turn-dropship-anim.png": {
+      "hash": "a39c62fc75ae3a6c616e471fe09bed7a",
+      "mtimeMs": 1784984854624.285,
+      "size": 158191
+    },
+    "game/assets/worldmap/platoonsprites/32-turn-chopper-anim.png": {
+      "hash": "b85403981d82a11ab0e121a94bcc1555",
+      "mtimeMs": 1784984854646.3096,
+      "size": 504817
+    },
+    "game/assets/worldmap/summer/GroundB.png": {
+      "hash": "df26db35a5cb3a81ed123d71cfcc61aa",
+      "mtimeMs": 1784984854667.3223,
+      "size": 945552
+    },
+    "game/assets/worldmap/summer/GroundE.png": {
+      "hash": "065881e684de1047bd5101ca15abbda6",
+      "mtimeMs": 1784984854667.3223,
+      "size": 888490
+    },
+    "game/assets/worldmap/summer/GroundD.png": {
+      "hash": "55047fef030656244f33a59bb2e2eb86",
+      "mtimeMs": 1784984854668.3203,
+      "size": 948888
+    },
+    "game/assets/worldmap/summer/GroundG.png": {
+      "hash": "9e9a2b3818cdc5841a9f1d017970d41b",
+      "mtimeMs": 1784984854668.3203,
+      "size": 911868
+    },
+    "game/assets/worldmap/summer/GroundF.png": {
+      "hash": "f4aceb9e782b78b5f978ad65587da6d9",
+      "mtimeMs": 1784984854668.3203,
+      "size": 900799
+    },
+    "game/assets/worldmap/summer/GroundC.png": {
+      "hash": "c36c9a0574adabfe2a89cbf81fe2941b",
+      "mtimeMs": 1784984855111.739,
+      "size": 939119
+    },
+    "game/assets/worldmap/summer/GroundA.png": {
+      "hash": "8aeb21258dd2381dfd23fa21af1ca9eb",
+      "mtimeMs": 1784984855111.739,
+      "size": 864198
+    },
+    "game/assets/factions/6-s.v2.jpg": {
+      "hash": "e7a5e8957305a0bb1fc0fd1fe7151622",
+      "mtimeMs": 1784984857604.99,
+      "size": 2482
+    },
+    "game/assets/factions/2-s.jpg": {
+      "hash": "99341630b9c91975d76691dd8ad3be8a",
+      "mtimeMs": 1784985156311.2024,
+      "size": 5235
+    },
+    "game/assets/factions/1-s.v2.jpg": {
+      "hash": "608ef52717b1689e17cd60f2883a0503",
+      "mtimeMs": 1784986581155.1436,
+      "size": 11231
+    },
+    "game/assets/store_icons/1124_142.png": {
+      "hash": "604713485659e1f31999efaef664a715",
+      "mtimeMs": 1784987455038.079,
+      "size": 22717
+    },
+    "game/assets/store_icons/1139_142.png": {
+      "hash": "13ae1f64a005a729f2d9116ec987ea36",
+      "mtimeMs": 1784987455039.0828,
+      "size": 28441
+    },
+    "game/assets/store_icons/1064_142.png": {
+      "hash": "f72bada6051f2747e088dd05b171777b",
+      "mtimeMs": 1784987455047.1626,
+      "size": 23364
+    },
+    "game/assets/store_icons/1111_142.png": {
+      "hash": "34c1bc8ae3175994d7290e4463e9a574",
+      "mtimeMs": 1784987455047.1626,
+      "size": 22707
+    },
+    "game/assets/store_icons/1054_142.png": {
+      "hash": "f3cf1d872e01d467260387cb3fd13434",
+      "mtimeMs": 1784987455056.01,
+      "size": 35522
+    },
+    "game/assets/store_icons/gold_offense.png": {
+      "hash": "a92742497dbd4aae16e1133fd3d7d90c",
+      "mtimeMs": 1784987455090.911,
+      "size": 35713
+    },
+    "game/assets/store_icons/1073_142.png": {
+      "hash": "f378f6e3a46866bda53c6da25bfcb9b5",
+      "mtimeMs": 1784987455090.911,
+      "size": 25186
+    },
+    "game/assets/store_icons/1074_142.png": {
+      "hash": "b232a54ca5dc64b91f0bcac89b74e287",
+      "mtimeMs": 1784987455091.9119,
+      "size": 27748
+    },
+    "game/assets/store_icons/upgrade_token_legendaryrhino.png": {
+      "hash": "8b1e581bc9860cb9d361ea23f98361a3",
+      "mtimeMs": 1784987455100.176,
+      "size": 32260
+    },
+    "game/assets/store_icons/1125_142.png": {
+      "hash": "2dc5b0e1a28d1e8dfda13d80c5c7bef5",
+      "mtimeMs": 1784987455100.176,
+      "size": 22837
+    },
+    "game/assets/store_icons/gold_defense.png": {
+      "hash": "348eda8ff670c969c0c1a92960251ca6",
+      "mtimeMs": 1784987455100.176,
+      "size": 35633
+    },
+    "game/assets/store_icons/upgrade_token_war_roller.png": {
+      "hash": "2f97eb8e19af683bf32fa628e6a59433",
+      "mtimeMs": 1784987455100.176,
+      "size": 32911
+    },
+    "game/assets/store_icons/1140_142.png": {
+      "hash": "09970f4c04f1c0a6b53a03c04d9b9292",
+      "mtimeMs": 1784987455105.1755,
+      "size": 27530
+    },
+    "game/assets/store_icons/upgrade_token_war_vega.png": {
+      "hash": "4bb6b0f5c8b3f9381d0807ecb044083d",
+      "mtimeMs": 1784987455109.1763,
+      "size": 31493
+    },
+    "game/assets/store_icons/gold_mobility.png": {
+      "hash": "1f9873ee296629f2582fd1a55bd405f8",
+      "mtimeMs": 1784987455113.4182,
+      "size": 36457
+    },
+    "game/assets/store_icons/upgrade_token_legendaryviper.png": {
+      "hash": "57be8114312318b063748a86e17619e1",
+      "mtimeMs": 1784987455116.411,
+      "size": 31370
+    },
+    "game/assets/store_icons/1098_142.png": {
+      "hash": "523edc6e72200d0fc4d78ebe930b4b7d",
+      "mtimeMs": 1784987455119.4104,
+      "size": 25132
+    }
+  }
+}
