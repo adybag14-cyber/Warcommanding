@@ -1,4 +1,4 @@
-﻿name: Build Windows launcher
+name: Build Windows launcher
 
 on:
   push:
@@ -24,7 +24,7 @@ jobs:
           lfs: false
 
       - name: Set up Node.js 24
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: '24'
           cache: npm
